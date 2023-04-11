@@ -2,14 +2,19 @@
   "name": "nodejs-tutorial",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon 02-express-tutorial/app.js",
+    "dev": "node 02-express-tutorial/app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.2.3",
-    "lodash": "^4.17.21"
+    "express": "^4.18.2",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
   }
 }
